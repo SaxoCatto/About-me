@@ -1,11 +1,11 @@
 body {
 	color: #958378; /* most letters in body*/
 	background: #232323;
-	max-width: 1200px;
+	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 h1, h2 {
-	color: #8a92a7; /* divide if needed*/
+	color: #939ac2; /* divide if needed*/
 }
