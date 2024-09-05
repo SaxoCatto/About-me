@@ -1,4 +1,17 @@
 body {
-	color: #232323;
-	background:#616161;
+	color: #958378; /* most letters in body*/
+	background: #232323;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	border-collapse: collapse;
+	border-spacing: 0.15;
+	border: 0;
+	padding: 0;
+	font-size: 110%;
+	font: inherit;
+	vertical-align: baseline;
 }
