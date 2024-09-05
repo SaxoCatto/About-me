@@ -1,0 +1,15 @@
+.metadata {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust columns as needed */
+    gap: 10px; /* Space between grid items */
+    padding: 10px; /* Space inside the border */
+    border: 2px solid black; /* Optional: border around the grid */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+.metadata-item {
+    background-color: #f9f9f9; /* Background color for items */
+    padding: 10px; /* Space inside each grid item */
+    border: 1px solid #ddd; /* Optional: border around each item */
+    border-radius: 3px; /* Optional: rounded corners for items */
+}
