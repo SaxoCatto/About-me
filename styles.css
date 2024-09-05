@@ -13,3 +13,7 @@
     border: 1px solid #ddd; /* Optional: border around each item */
     border-radius: 3px; /* Optional: rounded corners for items */
 }
+
+headers {
+    display: block;
+}
