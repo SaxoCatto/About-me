@@ -7,7 +7,7 @@
   --text-color: #000;
   --text-color-alt: #666;
   --background-color: #fff;
-  --background-color-alt: #eee;
+  --background-color-alt: #ddd;
 
   --font-weight-normal: 500;
   --font-weight-medium: 600;
@@ -18,15 +18,15 @@
   font-weight: var(--font-weight-normal);
   font-style: normal;
   font-variant-numeric: tabular-nums lining-nums;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text-color: #fff;
-    --text-color-alt: #aaa;
-    --background-color: #000;
-    --background-color-alt: #111;
+    --text-color: #a0b3a0;
+    --text-color-alt: #b1a0b1;
+    --background-color: #111;
+    --background-color-alt: #222;
   }
 }
 
@@ -41,7 +41,7 @@
 
 html {
   display: flex;
-  width: 100%;
+  width: 95%; # 100 if u like center align
   margin: 0;
   padding: 0;
   flex-direction: column;

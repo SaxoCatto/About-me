@@ -9,7 +9,7 @@
 
 .metadata-item {
     background-color: #f9f9f9; /* Background color for items */
-    padding: 10px; /* Space inside each grid item */
+    padding: 15px; /* Space inside each grid item */
     border: 1px solid #ddd; /* Optional: border around each item */
     border-radius: 3px; /* Optional: rounded corners for items */
 }
