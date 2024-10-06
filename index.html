@@ -1,246 +1,259 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="author" content="Saxo Cat" />
-  <meta name="dcterms.date" content="2024-10-01" />
-  <title>The Monospace Web</title>
-  <link rel="stylesheet" href="reset.css" />
-  <link rel="stylesheet" href="index.css" />
-</head>
-<body>
-<table class="header">
-  <tr>
-    <td colspan="2" rowspan="2" class="width-auto">
-      <h1 class="title">Hobby lounge</h1>
-      <span class="subtitle">A minimalist design exploration</span>
-    </td>
-    <th>Version</th>
-    <td class="width-min">v0.1.3</td>
-  </tr>
-  <tr>
-    <th>Updated</th>
-    <td class="width-min"><time style="white-space: pre;">2024-10-01</time></td>
-  </tr>
-  <tr>
-    <th class="width-min">Author</th>
-    <td class="width-auto"><a href="https://github.com/SaxoCatto"><cite>Saxo Cat</cite></a></td>
-    <th class="width-min">License</th>
-    <td>MIT</td>
-  </tr>
-</table>
-<label class="debug-toggle-label"><input type="checkbox" class="debug-toggle" /> Debug mode</label>
-<nav id="TOC" role="doc-toc">
-<h2 id="toc-title">Contents</h2>
-<ul class="incremental">
-<li><a href="#introduction" id="toc-introduction">Introduction</a></li>
-<li><a href="#the-basics" id="toc-the-basics">The Basics</a></li>
-<li><a href="#lists" id="toc-lists">Lists</a></li>
-<li><a href="#tables" id="toc-tables">Tables</a></li>
-<li><a href="#forms" id="toc-forms">Forms</a></li>
-<li><a href="#ascii-drawings" id="toc-ascii-drawings">ASCII
-Drawings</a></li>
-<li><a href="#media" id="toc-media">Media</a></li>
-<li><a href="#discussion" id="toc-discussion">Discussion</a></li>
-</ul>
-</nav>
-<h2 id="introduction">Introduction</h2>
-<p>I like cats, and I like saxophones. Hence my name. I am trying out things, from programming to exercises. I 
-try to enjoy things that I chose. As I move on with life, I strive to be a independant, competant and reliable
-person. And by learning things, top down <strong>and</strong> bottoms up, do I appreciate these fleeting memories. </p>
-<p>On this page, I use a monospace grid to align text and draw diagrams.
-It’s generated from a simple Markdown document (using Pandoc), and the
-CSS and a tiny bit of Javascript renders it on the grid. Standard elements should
-<em>just work fluidly</em>. It’s semantic HTML, made as if we were back in the 70s.</p>
-<p>All right, but is this even a good idea? It’s a technical and
-creative challenge and I like the aesthetic. As long as I am passionate about it, time spent here is worthwhile. 
-Of course, I will add more elements to this page. Maybe turn this into a main blog page. </p>
-<h2 id="the-basics">The Basics</h2>
-<p>This document uses a few extra classes here and there, but mostly
-it’s just markup. This, for instance, is a regular paragraph.</p>
-<p>Look at this horizontal break:</p>
-<hr>
-<p>Lovely. We can hide stuff in the <code>&lt;details</code>&gt;
-element:</p>
-<details>
-<summary>
-A short summary of the contents
-</summary>
-<p>
-Le Fishe Au Chocolat.
-</p>
-</details>
-<h2 id="lists">Lists</h2>
-<p>This is a old bulleted list (best kind imo):</p>
-<ul class="incremental">
-<li>Pen</li>
-<li>Pencil</li>
-<li>Pencil case</li>
-<li>Brazil</li>
-</ul>
-<p>Ordered lists of an average male in 2024:</p>
-<ol class="incremental" type="1">
-<li>Fornite addict</li>
-<li>Sigma phase
-<ol class="incremental" type="1">
-<li>Gooner</li>
-<li>Afraid of women</li>
-</ol></li>
-<li>In CIA-wanted list</li>
-</ol>
-<p>Trees are cool. This is a regular unordered list with a
-<code>tree</code> class, depicting a Linux file system <s>under construction</s>:</p>
-<ul class="tree">
-<li>
-<p style="margin: 0;">
-<strong>/dev/nvme0n1p2</strong>
-</p>
-<ul class="incremental">
-<li>usr
-<ul class="incremental">
-<li>local<br />
-</li>
-<li>share<br />
-</li>
-<li>include<br />
-</li>
-<li>sbin<br />
-</li>
-<li>src<br />
-</li>
-<li>lib<br />
-</li>
-<li>bin<br />
-</li>
-<li>games
-<ul class="incremental">
-<li>chess</li>
-<li>sudoku</li>
-</ul></li>
-<li>media<br />
-</li>
-</ul></li>
-<li>media<br />
-</li>
-<li>run<br />
-</li>
-<li>tmp</li>
-</ul>
-</li>
-</ul>
-<h2 id="tables">Tables</h2>
-<p>We can use regular tables that automatically adjust to the monospace
-grid. They’re responsive.</p>
-<table>
-<thead>
-<tr>
-<th class="width-min">
+ <!DOCTYPE html> 
+ <html lang="en" xml:lang="en"> 
+ <head> 
+   <meta charset="utf-8" /> 
+   <meta name="generator" content="pandoc" /> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" /> 
+   <meta name="author" content="Saxo Cat" /> 
+   <meta name="dcterms.date" content="2024-Oct-06" /> 
+   <title> The Monospace Web </title> 
+   <link rel="stylesheet" href="reset.css" /> 
+   <link rel="stylesheet" href="index.css" /> 
+ </head> 
+ <body> 
+ <table class="header"> 
+   <tr> 
+     <td colspan="2" rowspan="2" class="width-auto"> 
+       <h1 class="title"> About me </h1> 
+       <span class="subtitle"> A minimalist design exploration </span> 
+     </td> 
+     <th> Version </th> 
+     <td class="width-min"> v0.1.3 </td> 
+   </tr> 
+   <tr> 
+     <th> Updated </th> 
+     <td class="width-min"><time style="white-space: pre;"> 2024-10-01 </time></td> 
+   </tr> 
+   <tr> 
+     <th class="width-min"> Author </th> 
+     <td class="width-auto"><a href="https://github.com/SaxoCatto"><cite> Saxo Cat </cite></a></td> 
+     <th class="width-min"> License </th> 
+     <td> MIT </td> 
+   </tr> 
+ </table> 
+ <label class="debug-toggle-label">  <input type="checkbox" class="debug-toggle" /> Debug mode </label> 
+ <nav id="TOC" role="doc-toc"> 
+ <h2 id="toc-title"> Contents </h2> 
+ <ul class="incremental"> 
+ <li><a href="#introduction" id="toc-introduction"> Introduction </a></li> 
+ <li><a href="#this-website" id="toc-the-basics"> For this website </a></li> 
+ <li><a href="#lists" id="toc-lists"> Lists </a></li> 
+ <li><a href="#tables" id="toc-tables"> Tables </a></li> 
+ <li><a href="#forms" id="toc-forms"> Forms </a></li> 
+ <li><a href="#ascii-drawings" id="toc-ascii-drawings"> ASCII Drawings </a></li> 
+ <li><a href="#media" id="toc-media"> Media Parsing </a></li> 
+ <li><a href="#discussion" id="toc-discussion"> Discussion </a></li> 
+ </ul> 
+ </nav> 
+ 
+ <h2 id="introduction"> Introduction </h2> 
+<p> I like cats, and I like saxophones, hence my name. Since time flies by so fast, I try to enjoy things that I chose. 
+	As I move on with life, I strive to be a independant, competant and reliable person. And by learning things, 
+	top down <strong> and </strong> bottoms up, do I appreciate these fleeting memories. </p> 
+<p> All right, but is this even a good idea? It’s a technical and creative challenge and I like the aesthetic. As 
+	long as I am passionate about it, time spent here is worthwhile. Of course, I will hook more pages to this. So in near
+	future, treat this like a "About me" page.</p> 
+ 
+ <h2 id="this-website"> For this website </h2> 
+<p> On this page, I use a Monospace grid to align text and draw diagrams. It’s generated from a simple 
+	Markdown document (using Pandoc), and the CSS and a tiny bit of Javascript renders it on the grid. Standard 
+	elements should<em> just work (TM)</em>. It’s semantic HTML, made as if we were back in the 70s. </p> 
+ <p> Look at this horizontal break: </p> 
+ <hr> 
+ <p> I can hide stuff with <code> &lt;details&gt;</code>. Expect key takeaways with this tag. </p> 
+ <details> 
+ <summary> 
+First lesson of life:
+ </summary> 
+ <p> 
+Take care of yourself and your loved ones.
+ </p> 
+ </details> 
+ 
+ <h2 id="lists"> Lists </h2> 
+ <p> Few things about me in a bulleted list (best kind imo): </p> 
+ 
+ <ul class="incremental"> 
+ <li> Male </li> 
+ <li> Clueless </li> 
+ <li> Likes hardware and software equally </li>  
+ </ul>
+ 
+ <p> Some of my projects, in an ordered list: </p> 
+ <ol class="incremental" type="1"> 
+ 
+ <li> Hardware 
+ <ol class="incremental" type="2"> 
+ <li> Digital Design: Verification, Synthesis, ... </li> 
+ <li> Analog Design: Darlington Amp, ... </li>
+ </ol> </li> 
+ 
+ <li> Software  
+ <ol class="incremental" type="3"> 
+ <li> Games: Sudoku, ... </li> 
+ <li> System Programming: Mail client, ... </li> 
+ </ol> </li> 
+ 
+ </ol>
+ 
+ <p> Trees are cool. This is a regular unordered list with a
+ <code> tree </code>  class, depicting my disk partition  <s> under construction again ...</s> : </p> 
+ <ul class="tree"> 
+ <li> 
+ <p style="margin: 0;"> 
+ <strong> /dev/sda </strong> 
+ </p> 
+ <ul class="incremental"> 
+ <li> sda1: the "/boot" directory <br />
+ </li>
+ 
+ <ul class="incremental"> 
+ <li> sda2: the SWAP partition <br />
+ </li>
+
+ <ul class="incremental"> 
+ <li> sda3: the "/" directory
+ <ul class="incremental"> 
+ <li> share <br /> 
+ </li> 
+ <li> include <br /> 
+ </li> 
+ <li> usr <br /> 
+ </li> 
+ <li> src <br /> 
+ </li>  
+ <li> bin <br /> 
+ </li> 
+ <li> home <br /> 
+ <li> and more ... <br /> 
+ </li> 
+ </ul>  </li> 
+ 
+ <ul class="incremental"> 
+ <li> sda4: the "/home" directory <br />
+ <ul class="incremental">  
+ <li> my sudo account </li> 
+ <li> my normal account </li> 
+ </ul> </li>
+ 
+ </ul> 
+ </ul>
+ </ul>
+ </ul>
+ 
+ <h2 id="tables"> Tables </h2> 
+ <p> We can use regular tables that automatically adjust to the monospace
+grid. They’re responsive. </p> 
+ <table> 
+ <thead> 
+ <tr> 
+ <th class="width-min"> 
 Object
-</th>
-<th class="width-min">
+ </th> 
+ <th class="width-min"> 
 Dimensions
-</th>
-<th class="width-min">
+ </th> 
+ <th class="width-min"> 
 Position
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
+ </th> 
+ </tr> 
+ </thead> 
+ <tbody> 
+ <tr> 
+ <td> 
 Your mom
-</td>
-<td>
+ </td> 
+ <td> 
 A whole bowling alley
-</td>
-<td>
+ </td> 
+ <td> 
 In my room
-</td>
-</tr>
-<tr>
-<td>
+ </td> 
+ </tr> 
+ <tr> 
+ <td> 
 Benito Mussolini
-</td>
-<td>
+ </td> 
+ <td> 
 5 wedding cakes
-</td>
-<td>
+ </td> 
+ <td> 
 Giulino di Mezzegra
-</td>
-</tr>
-</tbody>
-</table>
-<h2 id="forms">Forms</h2>
-<p>Here are some buttons:</p>
-<nav>
-<button>
+ </td> 
+ </tr> 
+ </tbody> 
+ </table> 
+ 
+ <h2 id="forms"> Forms </h2> 
+ <p> Here are some buttons: </p> 
+ <nav> 
+ <button> 
 To AI scrapper!
-</button>
-</nav>
-<p>And inputs:</p>
-<form class="grid">
-<label>First name
-<input type="text" placeholder="Placeholder..." /></label> <label>Last
-name <input type="text" placeholder="Text goes here..." /></label>
-<label>Age <input type="text" value="30" /></label>
-</form>
-<h2 id="ascii-drawings">ASCII Drawings</h2>
-<p>We can draw in <code>&lt;pre&gt;</code> tags using <a
-href="https://en.wikipedia.org/wiki/Box-drawing_characters">box-drawing
-characters</a>:</p>
-<pre><code>╭─────────────────╮
-│ MONOSPACE ROCKS │
-╰─────────────────╯</code></pre>
-<p>To have it stand out a bit more, we can wrap it in a
-<code>&lt;figure&gt;</code> tag, and why not also add a
-<code>&lt;figcaption&gt;</code>.</p>
-<figure>
-<pre>
-┌───────┐ ┌───────┐ ┌───────┐
-│Actor 1│ │Actor 2│ │Actor 3│
-└───┬───┘ └───┬───┘ └───┬───┘
-    │         │         │    
-    │         │  msg 1  │    
-    │         │────────►│    
-    │         │         │    
-    │  msg 2  │         │    
-    │────────►│         │    
-┌───┴───┐ ┌───┴───┐ ┌───┴───┐
-│Actor 1│ │Actor 2│ │Actor 3│
-└───────┘ └───────┘ └───────┘</pre>
-<figcaption>
-Example: Message passing.
-</figcaption>
-</figure>
-<h2 id="media">Media</h2>
-<p>Media objects are supported, like images and video:</p>
-<figure>
-<img src="Pics/cat-1.jpg" alt="Wretched being" />
-<figcaption aria-hidden="true">My cat</figcaption>
-<!--
-<video
+ </button> 
+ </nav> 
+ <p> And inputs: </p> 
+ <form class="grid"> 
+ <label> First name
+ <input type="text" placeholder="Placeholder..." />  </label>   <label> Last
+name  <input type="text" placeholder="Text goes here..." />  </label> 
+ <label> Age  <input type="text" value="30" />  </label> 
+ </form> 
+ 
+ <h2 id="ascii-drawings"> ASCII Drawings </h2> 
+ <p> We can draw in  <code> &lt;pre&gt; </code>  tags using  <a href="https://en.wikipedia.org
+ /wiki/Box-drawing_characters"> box-drawingcharacters </a> : </p> 
+ <pre><code> ╭──────────────────╮
+ │ EPHEMERAL BEAUTY │
+ ╰──────────────────╯ </code></pre> 
+ <p> To have it stand out a bit more, we can wrap it in a
+ <code> &lt;figure&gt; </code>  tag, and why not also add a
+ <code> &lt;figcaption&gt; </code> . </p> 
+ <figure> 
+ <pre> 
+┌───────┐   ┌───────┐ ┌───────┐
+│ Col 1 │   │ Col 2 │ │ Col 3 │
+└───┬───┘   └───┬───┘ └───┬───┘
+    │         	│         │    
+    │         	│  Hole 2 │    
+    │         	│────────►│    
+    │         	│         │    
+    │  Cuphead  │         │    
+    │──────────►│         │    
+┌───┴───┐   ┌───┴───┐ ┌───┴───┐
+│ Col 1 │   │ Col 2 │ │ Col 3 │
+└───────┘   └───────┘ └───────┘ </pre> 
+ <figcaption> 
+Example: Genies phase 2 gameplay.
+ </figcaption> 
+ </figure> 
+ 
+ <h2 id="media"> Media Parsing </h2> 
+ <p> Media objects are supported, like images and video: </p> 
+ <figure> 
+ <img src="Pics/cat-1.jpg" alt="Wretched being" /> 
+ <figcaption aria-hidden="true"> My cat </figcaption> 
+ <!--
+ <video
 src="https://www.youtube.com/watch?v=tv8acF5X6e4"
-controls=""><a
-href="https://www.youtube.com/watch?v=tv8acF5X6e4">Fat guy having fun</a></video>
-<figcaption aria-hidden="true"><a
-href="https://www.youtube.com/watch?v=tv8acF5X6e4">Fat guy having fun</a></figcaption>
+controls="">  <a
+href="https://www.youtube.com/watch?v=tv8acF5X6e4"> Fat guy having fun </a>  </video> 
+ <figcaption aria-hidden="true">  <a
+href="https://www.youtube.com/watch?v=tv8acF5X6e4"> Fat guy having fun </a>  </figcaption> 
 
 No video with supported format and MIME type found.
 
--->
-</figure>
-<p>They extend to the width of the page, and add appropriate padding in
-the bottom.</p>
-<h2 id="discussion">Discussion</h2>
-<p>That’s it for now. I’ve very much enjoyed making this, pushing my CSS
+--> 
+ </figure> 
+ <p> They extend to the width of the page, and add appropriate padding in
+the bottom. </p> 
+ <h2 id="discussion"> Discussion </h2> 
+ <p> That’s it for now. I’ve very much enjoyed making this, pushing my CSS
 chops and having a lot of fun with the design. If you like it or even
-decide to use it, please <a href="https://github.com/SaxoCatto">let me
-know</a>.</p>
-<p>The full source code is <a
-href="https://github.com/SaxoCatto/hobby-lounge.git">here.</a></p>
-  <div class="debug-grid"></div>
-  <script src="index.js"></script>
-</body>
-</html>
+decide to use it, please  <a href="https://github.com/SaxoCatto"> let me
+know </a> . </p> 
+ <p> The full source code is  <a
+href="https://github.com/SaxoCatto/hobby-lounge.git"> here. </a>  </p> 
+   <div class="debug-grid">  </div> 
+   <script src="index.js">  </script> 
+ </body> 
+ </html> 
